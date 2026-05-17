@@ -4,8 +4,6 @@ A production-grade distributed job processing engine built with **Java 21** and 
 
 Think self-hosted Sidekiq or Celery, built from scratch to demonstrate every primitive in `java.util.concurrent`.
 
-> **Learning context:** Phase 3 of a 3-project Java multithreading series (after TicketHub and Nexus). Each design decision maps directly to a concurrency concept. The goal is not just to make it work — it's to understand *why* each primitive is the right tool for the job.
-
 ---
 
 ## Concurrency Map
@@ -42,7 +40,7 @@ Every thread primitive used in this project is intentional.
 | API Docs | SpringDoc OpenAPI (Swagger UI) |
 | Testing | JUnit 5 + Testcontainers |
 
-Ports are offset so Forge runs alongside TicketHub (8080) and Nexus (8081):
+Service ports:
 
 | Service | Port |
 |---|---|
