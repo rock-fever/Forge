@@ -4,6 +4,10 @@ A production-grade distributed job processing engine built with **Java 21** and 
 
 Think self-hosted Sidekiq or Celery, built from scratch to demonstrate every primitive in `java.util.concurrent`.
 
+## Architecture
+
+![Architecture Diagram](arch.png)
+
 ---
 
 ## Concurrency Map
