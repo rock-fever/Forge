@@ -1,0 +1,40 @@
+# .gitignore
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+*.code-workspace
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Spring Boot
+spring-pid
+
+# Environment / secrets
+.env
+*.env.local
+application-local.properties
+application-local.yml
+
+# Testcontainers
+.testcontainers.properties
+
+# Claude Code
+.claude/
+CLAUDE.md
